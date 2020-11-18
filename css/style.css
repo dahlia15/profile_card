@@ -1,0 +1,73 @@
+body {
+    background-image: url(/images/bg-pattern-bottom.svg);
+    background-position: bottom left fixed;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans';
+    height: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top:0; left: 0; bottom: 0; right: 0;
+}
+
+.image {
+    background-image: url(/images/bg-pattern-card.svg);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 125px;
+}
+
+.image img {
+    border-radius: 500px;
+    border: 4px solid white;
+    margin-top: 75px;
+}
+
+.info {
+    padding-top: 65px;
+}
+
+span.name, span.count {
+    font-weight: bold;
+    font-size: 18px
+}
+span.age, span.city, span.linetwo {
+    color: hsl(0, 0%, 59%);
+    font-size: 15px;
+}
+span.city, span.linetwo{
+    display: block;
+}
+
+span.city {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    padding-top: 25px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
